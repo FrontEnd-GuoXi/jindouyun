@@ -11,15 +11,19 @@
 	padding-top: 65px;
 	color: white;
 }
-.foot-main > div > div{
+.foot-top-block{
 	float: left;
 	text-align: center;
 	height: 178px;
 }
 .foot-line{
 	width: 1px;
-	/* background-color: rgb(113,113,133); */
-	background-color: white;
+	float: left;
+	background-color: rgb(113,113,133);
+	height: 178px;
+}
+.foot-top-block > ul > li{
+	line-height: 30px;
 }
 .foot-main-in{
 	width: 798px;
@@ -28,4 +32,30 @@
 .foot-top-block{
 	padding-left: 50px;
 	padding-right: 50px;
+}
+.fc-wrap{
+	padding: 50px;
+}
+.friden-link{
+	float: left;
+}
+.wx-public , .sina-weibo{
+	float: left;
+	padding-top: 20px;
+}
+.wx-public{
+	padding-right: 10px;
+}
+.sina-weibo{
+	padding-left: 10px;
+}
+.contact-we{
+	padding-top: 30px;
+}
+.contact-we > img{
+	width: 20px;
+	height: 20px;
+}
+.copyright{
+	float: right;
 }
