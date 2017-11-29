@@ -1,0 +1,54 @@
+.jdy-head{
+	max-width: 1920px;
+	min-width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+}
+.head-top{
+	width: 100%;
+	height:40px;
+	background-color: rgb(45,45,45);
+	color: white;
+	font-size: 14px;
+	line-height: 40px;
+}
+.wel-text, .head-phone{
+	display: inline-block;
+	width: 49.5%;
+	text-align: center;
+}
+.head-buttom{
+	width:100%;
+	height: 110px;
+	background-color: white;
+	overflow: hidden;
+
+}
+.logo-wrap, .nav-wrap{
+	height: 110px;
+	width: 49%;
+	line-height: 110px;
+	float: left;
+	text-align: center;
+	
+}
+.logo-wrap > img{
+	vertical-align: middle;
+}
+.logo-wrap{
+}
+.nav-list{
+	overflow: hidden;
+	margin: 0 auto;
+	width:365px;
+}
+.nav-list > li{
+	list-style: none;
+	float: right;
+	width: 77px;
+	height: 100%;
+	text-align: center;
+}
+.split{
+	width: 10px!important;
+}

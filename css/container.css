@@ -1,0 +1,137 @@
+.container{
+	max-width: 1920px;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+.show1{
+	height: 480px;
+}
+.showImg-wrap{
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+}
+.showImg-wrap > img{
+	width: 100%;
+}
+
+/****************
+	**************
+		show1结束 
+	**************
+	**************/
+
+.show2{
+	height: 190px;
+	background-color: white;
+}
+.trade-list{
+	width: 1016px;
+	margin: 0 auto;
+}
+.trade-introduce{
+	width: 240px;
+	height: 190px;
+	float: left;
+	text-align: center;
+	padding-top: 38px;
+}
+.trade-img-wrap{
+	height: 60px;
+}
+.trade-sundry{
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 26px;
+}
+.sundry-detail{
+	padding-top: 10px;
+	font-size: 12px;
+}
+/****************
+	**************
+		show2结束 
+	**************
+	**************/
+.show3{
+	height: 505px;
+	width: 100%;
+	overflow: hidden;
+}
+.show3-img-wrap > img{
+	height: 100%;
+	width: 100%;
+}
+/****************
+	**************
+		show3结束 
+	**************
+	**************/
+.news-show{
+	height: 135px;
+	width: 1004px;
+	margin: 0 auto;
+	padding-top: 55px;
+	text-align: center;
+}
+.show4-title{
+	font-size: 16px;
+	font-weight: 600;
+	color: rgba(105, 104, 102, 0.86);
+}
+.show4-title-ing{
+	color: gray;
+	padding-top: 20px;
+}
+.news-list{
+	width: 1010px;
+	margin: 0 auto;
+}
+.news-item{
+	padding: 20px;
+	box-sizing: border-box;
+	width:494px;
+	height: 178px;
+	background-color: rgb(197, 197, 197);
+	float: left;
+	margin-left: 7px;
+	margin-bottom: 10px;
+}
+.news-img-wrap{
+	float: left;
+}
+.news-img-wrap >img{
+	width: 157px;
+	height: 137px;
+}
+.news-introduce{
+	float: left;
+	width: 270px;
+	text-align: left;
+	padding-left: 15px;
+}
+.news-pubtime{
+	text-align: right;
+	font-size: 12px;
+}
+.news-snippet{
+	font-size: 12px;
+	line-height: 20px;
+}
+.detail-btn{
+	width: 60px;
+	height: 20px;
+	background-color: #50a5e6;
+	float: right;
+}
+.detail-btn > a{
+	line-height: 20px;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	font-size: 12px!important;
+	text-align: center!important;
+}
+.detail-btn > a:hover{
+	color: red;
+}

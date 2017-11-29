@@ -1,0 +1,20 @@
+body,html,ul,li{
+	margin: 0;
+	padding:0;
+}
+*{
+	font-size: 14px;
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.clean-float::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+li{
+	list-style: none;
+}
